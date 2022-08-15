@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signos Zodiacales</title>
+    <script src="./assets/js/app.js"></script>
+    <link rel="icon" href="./assets/img/signosZodiacales.jpeg" />
+  </head>
+  <body>
+    <form name="form">
+      <fieldset>
+        <legend>Datos</legend>
+        <label for="">Día de nacimiento</label>
+        <input
+          type="number"
+          name="day"
+          max="31"
+          min="1"
+          step=""
+          required="true"
+        />
+        <label for="">Mes de nacimiento</label>
+        <input
+          type="number"
+          name="month"
+          max="12"
+          min="1"
+          step=""
+          required="true"
+        />
+        <input value="Buscar" type="button" onclick="zood();" />
+        <br />
+        <img
+          src="./assets/img/signosZodiacales.jpeg"
+          alt="Signos Zodiacales"
+          id="images"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
